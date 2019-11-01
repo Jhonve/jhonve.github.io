@@ -1,7 +1,7 @@
-## INTRODUCTIOIN
+## INTRODUCTION
 
-I am a Ph.d candidate focusing on CG(computer graphics) at State Key Lab of CAD&CG, Zhejiang University and I am advised by [Youyi Zheng](http://www.youyizheng.net/) and [Kun Zhou](http://kunzhou.net/).
-My research interests including image-based modeling, 3D data processing and reconstructioni with deep learning.
+I am a Ph.D. candidate focusing on CG(computer graphics) at State Key Lab of CAD&CG, Zhejiang University, advised by [Youyi Zheng](http://www.youyizheng.net/) and [Kun Zhou](http://kunzhou.net/).
+My research interests including image-based modeling, 3D data processing and reconstruction with deep learning.
 
 ### PUBLICATION
 
