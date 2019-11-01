@@ -5,7 +5,7 @@ My research interests including image-based modeling, 3D data processing and rec
 
 ### PUBLICATION
 
-![](/img/shen.jpg)
+![](/img/DeepSketchHairTeaser.png)
 
 - DeepSketchHair: Deep Sketch-based 3D Hair Modeling
 > *Yuefan Shen, Changgeng Zhang, Hongbo Fu, Kun Zhou, YouYi Zheng*
