@@ -12,14 +12,14 @@ My research interests including image-based modeling, 3D data processing and rec
 **GCN-Denoiser: Mesh Denoising with Graph Convolutional Networks**
 > *Yuefan Shen, Hongbo Fu, Zhongshuo Du, Xiang Chen, Kun Zhou, Evgeny Burnaev, Denis Zorin, YouYi Zheng*
 
-<font color=Blue>ACM Transactions on Graphics 2021</font>
+<font color=#87CEEB>ACM Transactions on Graphics 2021</font>
 
 ![](/img/DeepSketchHairTeaser.png)
 
 **DeepSketchHair: Deep Sketch-based 3D Hair Modeling**
 > *Yuefan Shen\*, Changgeng Zhang\*, Hongbo Fu, Kun Zhou, YouYi Zheng*
 
-<font color=Blue>[IEEE Transactions on Visualization and Computer Graphics 2020 (One version has been released on ArXiv)](https://arxiv.org/abs/1908.07198)</font>
+[<font color=#87CEEB>IEEE Transactions on Visualization and Computer Graphics 2020 (One version has been released on ArXiv)</font>](https://arxiv.org/abs/1908.07198)
 
 *Waiting for update*
 
