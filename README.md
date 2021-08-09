@@ -12,8 +12,7 @@ I am a Ph.D. candidate focusing on CG(computer graphics) at [State Key Lab of CA
 
 *ArXiv 2021*
 
-> Yanchao Yang\*, <font color=MediumOrchid>Yuefan Shen\*</font>, [YouYi Zheng](http://www.youyizheng.net/), [C. Karen Liu](https://profiles.stanford.edu/c-karen-liu), [Leonidas Guibas](https://geometry.stanford.edu/member/guibas/)
-(* Co-first author)
+> Yanchao Yang\*, <font color=MediumOrchid>Yuefan Shen*</font>, [YouYi Zheng](http://www.youyizheng.net/), [C. Karen Liu](https://profiles.stanford.edu/c-karen-liu), [Leonidas Guibas](https://geometry.stanford.edu/member/guibas/) (\* co-first author)
 
 [PAPER](https://arxiv.org/pdf/2107.13087.pdf)
 
@@ -37,8 +36,7 @@ I am a Ph.D. candidate focusing on CG(computer graphics) at [State Key Lab of CA
 
 *IEEE Transactions on Visualization and Computer Graphics 2020*
 
-> <font color=MediumOrchid>Yuefan Shen\*</font>, Changgeng Zhang\*, [Hongbo Fu](http://sweb.cityu.edu.hk/hongbofu/), [Kun Zhou](http://kunzhou.net/), [YouYi Zheng](http://www.youyizheng.net/)
-(* Co-first author)
+> <font color=MediumOrchid>Yuefan Shen*</font>, Changgeng Zhang\*, [Hongbo Fu](http://sweb.cityu.edu.hk/hongbofu/), [Kun Zhou](http://kunzhou.net/), [YouYi Zheng](http://www.youyizheng.net/) (\* co-first author)
 
 [PAPER](https://arxiv.org/pdf/1908.07198.pdf)
 
