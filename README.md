@@ -14,7 +14,7 @@ I am a Ph.D. candidate focusing on CG(computer graphics) at [State Key Lab of CA
 
 >*Yanchao Yang\*, <font color=MediumOrchid>Yuefan Shen*</font>, [YouYi Zheng](http://www.youyizheng.net/), [C. Karen Liu](https://profiles.stanford.edu/c-karen-liu), [Leonidas Guibas](https://geometry.stanford.edu/member/guibas/) (\* co-first author)*
 
-[PAPER](https://arxiv.org/pdf/2107.13087.pdf)
+[[PAPER]](https://arxiv.org/pdf/2107.13087.pdf)
 
 ***
 
@@ -24,9 +24,9 @@ I am a Ph.D. candidate focusing on CG(computer graphics) at [State Key Lab of CA
 
 *ACM Transactions on Graphics 2021*
 
->*<font color=MediumOrchid>Yuefan Shen</font>, [Hongbo Fu](http://sweb.cityu.edu.hk/hongbofu/), Zhongshuo Du, [Xiang Chen](http://flyingxiang.net/), Evgeny Burnaev, [Denis Zorin](https://cims.nyu.edu/gcl/denis.html), [Kun Zhou](http://kunzhou.net/), [YouYi Zheng](http://www.youyizheng.net/)*
+>*<font color=MediumOrchid>Yuefan Shen</font>, [Hongbo Fu](http://sweb.cityu.edu.hk/hongbofu/), Zhongshuo Du, [Xiang Chen](http://flyingxiang.net/), [Evgeny Burnaev](https://faculty.skoltech.ru/people/evgenyburnaev), [Denis Zorin](https://cims.nyu.edu/gcl/denis.html), [Kun Zhou](http://kunzhou.net/), [YouYi Zheng](http://www.youyizheng.net/)*
 
-[PAPER](http://www.youyizheng.net/docs/gcn-denoiser.pdf), [CODE&DATA](https://github.com/Jhonve/GCN-Denoiser)
+[[PAPER]](https://arxiv.org/pdf/2108.05128.pdf), [[CODE&DATA]](https://github.com/Jhonve/GCN-Denoiser)
 
 ***
 
@@ -38,7 +38,7 @@ I am a Ph.D. candidate focusing on CG(computer graphics) at [State Key Lab of CA
 
 >*<font color=MediumOrchid>Yuefan Shen*</font>, Changgeng Zhang\*, [Hongbo Fu](http://sweb.cityu.edu.hk/hongbofu/), [Kun Zhou](http://kunzhou.net/), [YouYi Zheng](http://www.youyizheng.net/) (\* co-first author)*
 
-[PAPER](https://arxiv.org/pdf/1908.07198.pdf)
+[[PAPER]](https://arxiv.org/pdf/1908.07198.pdf)
 
 ***
 
