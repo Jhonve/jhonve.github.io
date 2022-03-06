@@ -10,7 +10,7 @@ I am a Ph.D. candidate focusing on CG(computer graphics) at [State Key Lab of CA
 
 **Domain Adaptation on Point Clouds via Geometry-Aware Implicits**
 
-*ArXiv 2022*
+*To appear in IEEE CVPR 2022*
 
 >*<font color=MediumOrchid>Yuefan Shen</font>, [Yanchao Yang](https://yanchaoyang.github.io/), Mi Yan, [He Wang](https://hughw19.github.io/), [YouYi Zheng](http://www.youyizheng.net/), [Leonidas Guibas](https://geometry.stanford.edu/member/guibas/)*
 
@@ -34,7 +34,7 @@ I am a Ph.D. candidate focusing on CG(computer graphics) at [State Key Lab of CA
 
 **DCL: Differential Contrastive Learning for Geometry-Aware Depth Synthesis**
 
-*RA-L & ICRA 2022*
+*IEEE RA-L & ICRA 2022*
 
 >*<font color=MediumOrchid>Yuefan Shen*</font>, [Yanchao Yang](https://yanchaoyang.github.io/)\*, [YouYi Zheng](http://www.youyizheng.net/), [C. Karen Liu](https://profiles.stanford.edu/c-karen-liu), [Leonidas Guibas](https://geometry.stanford.edu/member/guibas/) (\* co-first author)*
 
