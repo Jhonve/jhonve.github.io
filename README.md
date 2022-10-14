@@ -2,7 +2,7 @@
 
 ### ABOUT ME
 
-I am a Ph.D. candidate focusing on CG(computer graphics) at [State Key Lab of CAD&CG](http://www.cad.zju.edu.cn/english.html), [Zhejiang University](http://www.zju.edu.cn/english/), advised by [Youyi Zheng](http://www.youyizheng.net/). I received my B.Eng. degree in Digital Media Technology from [Shandong University](http://www.en.sdu.edu.cn/) in 2019. Currently, My research interests including image-based modeling, 3D data processing, and reconstruction with deep learning.
+I am a Ph.D. candidate focusing on CG(computer graphics) at [State Key Lab of CAD&CG](http://www.cad.zju.edu.cn/english.html), [Zhejiang University](http://www.zju.edu.cn/english/), advised by [Youyi Zheng](http://www.youyizheng.net/). I received my B.Eng. degree in Digital Media Technology from [Shandong University](http://www.en.sdu.edu.cn/) in 2019. My research interests including 3D geometry processing and reconstruction with deep learning. Previously, I worked closely with [Yanchao Yang](https://yanchaoyang.github.io/), who is a Postdoctoral Research Fellow at [Stanford University](https://yanchaoyang.github.io/). Now, I am a Research Scientist Intern at Meta Reality Labs, Pittsburgh since July 2022, working with [Giljoo Nam](https://sites.google.com/view/gjnam).
 
 ### PUBLICATIONS
 
@@ -10,7 +10,7 @@ I am a Ph.D. candidate focusing on CG(computer graphics) at [State Key Lab of CA
 
 **Domain Adaptation on Point Clouds via Geometry-Aware Implicits**
 
-*To appear in IEEE CVPR 2022*
+*IEEE CVPR 2022*
 
 >*<font color=MediumOrchid>Yuefan Shen</font>, [Yanchao Yang](https://yanchaoyang.github.io/), Mi Yan, [He Wang](https://hughw19.github.io/), [YouYi Zheng](http://www.youyizheng.net/), [Leonidas Guibas](https://geometry.stanford.edu/member/guibas/)*
 
