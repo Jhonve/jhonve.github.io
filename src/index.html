@@ -1,0 +1,99 @@
+{% extends "template.html" %}
+{% block content %}
+    <div class="about">
+        <img class="banner-image" src="img/banner.png" title="self">
+
+        <p>
+        Hi! My name is Yuefan Shen and I am a Ph.D. student focusing on CG(Computer Graphics) at <a href="http://www.cad.zju.edu.cn/english.html">State Key Lab of CAD&CG</a>,
+        <a href="http://www.zju.edu.cn/english/">Zhejiang University</a>, advised by <a href="http://www.youyizheng.net/">Youyi Zheng</a>.
+        I received my B.Eng. degree in Digital Media Technology from <a href="http://www.en.sdu.edu.cn/">Shandong University</a> in 2019.
+        My research interests including 3D geometry processing and reconstruction with deep learning.
+        </p>
+        <p>
+        Previously, I worked closely with <a href="https://yanchaoyang.github.io/">Yanchao Yang</a>, who was a Postdoctoral Research Fellow at <a href="https://www.stanford.edu/">Stanford University</a>.
+        In 2022, I was a Research Scientist Intern at Meta Reality Labs, Pittsburgh, working with <a href="https://sites.google.com/view/gjnam">Giljoo Nam</a>.
+    </div>
+    <div class="timeline pt-2">
+        {% for entry in timeline %}
+        <div class="timeline-entry">
+            <div class="timeline-image-holder">
+            {% if "image" in entry %}
+            <img src="{{ entry.image }}" alt="{{ entry.org }}">
+            {% endif %}
+            </div>
+            <div class="timeline-time">{{ entry.time }}</div>
+            <div class="timeline-org">
+            {{ entry.org }}
+            </div>
+            <div class="timeline-position">
+            {{ entry.position }}
+            </div>
+            <div class="timeline-description">
+            {{ entry.description }}
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+    <div class="pt-4">
+        <h2>Publications</h2>
+        <div id="pubs">
+            {% for pub in pubs %}
+            <div class="pub row pt-3 pb-3">
+                <div class="col-sm-2 pub-preview">
+                    {% if "image" in pub %}
+                    <img src="{{ pub.image }}" alt="{{ pub.title }}">
+                    {% endif %}
+                </div>
+                <div class="col">
+                    <h4>{{ pub.title }}</h4>
+                    <div class="pub-authors">
+                        {% for author in pub.authors %}
+                        {{ autolink(author) }}{{ ", " if not loop.last else "" }}
+                        {% endfor %}
+                    </div>
+                    <div class="pub-venue pb-1">
+                        <small>
+                        {{ pub.venue }}
+                        <span class="pub-award"> {{ pub.award }} </span>
+                        </small>
+                    </div>
+                    <div class="pub-links">
+                    {% if "arxiv_link" in pub %}
+                    <a href="{{ pub.arxiv_link }}">arXiv</a>
+                    {% endif %}
+                    {% if "paper_link" in pub %}
+                    <a href="{{ pub.paper_link }}">Paper</a>
+                    {% endif %}
+                    {% if "web_link" in pub %}
+                    <a href="{{ pub.web_link }}">Website</a>
+                    {% endif %}
+                    {% if "video_link" in pub %}
+                    <a href="{{ pub.video_link }}">Video</a>
+                    {% endif %}
+                    {% if "code_link" in pub %}
+                    <a href="{{ pub.code_link }}">Code</a>
+                    {% endif %}
+                    </div>
+                    <div class="pub-description pt-1">
+                        {% if "abstract" in pub %}
+                        <p class="pub-abstract">
+                        {{ pub.abstract }}
+                        </p>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+            <small>
+            * = Equal contribution
+            </small>
+        </div>
+    </div>
+    <div class="coursework pt-2">
+        <h2>Misc</h2>
+        My Chinese name is 沈越凡.
+    </div>
+    <div class="pt-2">
+        <small>The website template was originally borrowed from </small> <a href="https://github.com/sxyu/sxyu.github.io"><small>[1]</small></a><small>.</small>
+    </div>
+{% endblock %}
