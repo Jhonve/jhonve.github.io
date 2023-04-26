@@ -4,7 +4,51 @@
         "class": "link-self"
     },
 
+    "Youyi Zheng": {
+        "link": "https://youyizheng.net/"
+    },
+
+    "Hongbo Fu": {
+        "link": "http://sweb.cityu.edu.hk/hongbofu/"
+    },
+
     "Yanchao Yang": {
         "link": "https://yanchaoyang.github.io/"
+    },
+
+    "Kun Zhou": {
+        "link": "http://kunzhou.net/"
+    },
+
+    "Beijia Chen": {
+        "link": "https://bbjbbj.github.io/"
+    },
+
+    "Xiang Chen": {
+        "link": "https://xchen-cs.github.io/"
+    },
+
+    "Evgeny Burnaev": {
+        "link": "https://faculty.skoltech.ru/people/evgenyburnaev/"
+    },
+
+    "Denis Zorin": {
+        "link": "https://cims.nyu.edu/gcl/denis.html"
+    },
+
+    "C. Karen Liu": {
+        "link": "https://profiles.stanford.edu/c-karen-liu"
+    },
+
+    "Leonidas Guibas": {
+        "link": "https://geometry.stanford.edu/member/guibas/"
+    },
+
+    "He Wang": {
+        "link": "https://hughw19.github.io/"
+    },
+
+    "Mi Yan": {
+        "link": "https://miyandoris.github.io/"
     }
 }

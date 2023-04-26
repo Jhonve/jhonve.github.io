@@ -1,0 +1,7 @@
+{
+    "title": "TeethGNN: Semantic 3D Teeth Segmentation with Graph Neural Networks",
+    "authors": ["Youyi Zheng", "Beijia Chen", "Yuefan Shen", "Kaidi Shen"],
+    "venue": "IEEE Transactions on Visualization and Computer Graphics 2022",
+    "paper_link": "https://ieeexplore.ieee.org/document/9720214/",
+    "image": "img/TeethSegTeaser.png"
+}

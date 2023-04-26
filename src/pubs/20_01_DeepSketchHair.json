@@ -1,0 +1,7 @@
+{
+    "title": "DeepSketchHair: Deep Sketch-based 3D Hair Modeling",
+    "authors": ["Yuefan Shen*", "Changgeng Zhang*", "Hongbo Fu", "Kun Zhou", "Youyi Zheng"],
+    "venue": "IEEE Transactions on Visualization and Computer Graphics 2020",
+    "arxiv_link": "https://arxiv.org/pdf/1908.07198.pdf",
+    "image": "img/DeepSketchHairTeaser.png"
+}

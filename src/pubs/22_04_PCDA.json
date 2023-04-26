@@ -1,8 +1,8 @@
 {
     "title": "Domain Adaptation on Point Clouds via Geometry-Aware Implicits",
     "authors": ["Yuefan Shen*", "Yanchao Yang*", "Mi Yan", "He Wang", "Youyi Zheng", "Leonidas Guibas"],
-    "venue": "CVPR 2022",
+    "venue": "IEEE CVPR 2022",
     "arxiv_link": "https://arxiv.org/pdf/2112.09343.pdf",
-    "code_link": "https://youtu.be/voebZx7f32g",
-    "image": "img/PCDTeaser.png"
+    "code_link": "https://github.com/Jhonve/ImplicitPCDA",
+    "image": "img/PCDATeaser.png"
 }

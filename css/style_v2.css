@@ -27,7 +27,7 @@ img {
 
 img.banner-image {
     width: 100%;
-    padding-bottom: 2em;
+    padding-bottom: 1em;
     margin: 0
 }
 
@@ -44,9 +44,9 @@ img.banner-image {
     flex-shrink: 0;
     flex-basis: 250px;
     min-height: 100vh;
-    background: #1c1b1b;
+    background: #552583;
     background-image: url("../img/sidebar_bg.png");
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-attachment: fixed;
     color: #fff;
     transition: all 0.3s;
@@ -64,7 +64,7 @@ img.banner-image {
 }
 
 #sidebar .sidebar-header .first-name {
-    color: #f09c00;
+    color: #fdb927;
 }
 
 #sidebar .sidebar-header p {
@@ -99,7 +99,7 @@ img.banner-image {
 
 #sidebar ul li.active>a,
 a[aria-expanded="true"] {
-    background: #bf7c00;
+    background: #fdb927;
 }
 
 a,
@@ -189,7 +189,7 @@ ul.publications {
 }
 
 .pub-preview {
-    width: 10%;
+    width: 30%;
 }
 
 .pub-preview img {
@@ -253,4 +253,21 @@ a.btn {
         padding-bottom: 15px;
         display: flex;
     }
+}
+
+.container {
+    display: flex; 
+    width: 180px;
+    float: left;
+    margin-top:-0.6em;
+}
+  
+.side {
+    flex: 1; 
+    padding: 10px;
+}
+
+.side-content-center {
+    display: grid; 
+    align-items: end;
 }

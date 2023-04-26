@@ -1,0 +1,8 @@
+{
+    "title": "DCL: Differential Contrastive Learning for Geometry-Aware Depth Synthesis",
+    "authors": ["Yuefan Shen*", "Yanchao Yang*", "Youyi Zheng", "C. Karen Liu", "Leonidas Guibas"],
+    "venue": "IEEE ICRA & RAL 2022",
+    "arxiv_link": "https://arxiv.org/pdf/2107.13087.pdf",
+    "code_link": "https://github.com/Jhonve/DCL-DepthSynthesis",
+    "image": "img/DCLTeaser.png"
+}

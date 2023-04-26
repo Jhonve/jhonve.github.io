@@ -1,0 +1,8 @@
+{
+    "title": "GCN-Denoiser: Mesh Denoising with Graph Convolutional Networks",
+    "authors": ["Yuefan Shen", "Hongbo Fu", "Zhongshuo Du", "Xiang Chen", "Evgeny Burnaev", "Denis Zorin", "Kun Zhou", "Youyi Zheng"],
+    "venue": "ACM Transactions on Graphics 2022",
+    "arxiv_link": "https://arxiv.org/pdf/2108.05128.pdf",
+    "code_link": "https://github.com/Jhonve/GCN-Denoiser",
+    "image": "img/GCNDenoiserTeaser.png"
+}
