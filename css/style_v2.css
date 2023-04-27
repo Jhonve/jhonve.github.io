@@ -4,6 +4,8 @@ body>.wrapper {
     flex-flow: row;
     position: relative;
     background-color: #fafafa;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 body {
@@ -32,7 +34,7 @@ img.banner-image {
 }
 
 #content {
-    padding: 25px 44px;
+    padding: 3px 32px;
     position: relative;
     flex-grow: 1;
     flex-shrink: 0;
@@ -221,7 +223,7 @@ a.btn {
     }
 
     #content {
-        padding: 25px 44px;
+        padding: 3px 24px;
         position: relative;
         flex-grow: 0;
         flex-shrink: 0;
