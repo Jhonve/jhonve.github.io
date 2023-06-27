@@ -2,6 +2,7 @@
     "title": "CT2Hair: High-Fidelity 3D Hair Modeling using Computed Tomography",
     "authors": ["Yuefan Shen", "Shunsuke Saito", "Ziyan Wang", "Olivier Maury", "Chenglei Wu", "Jessica Hodgins", "Youyi Zheng", "Giljoo Nam"],
     "venue": "ACM SIGGRAPH 2023 (ACM Transactions on Graphics)",
+    "award": "Selected in the Technical Papers Video Trailer",
     "web_link": "https://jhonve.github.io/CTHair",
     "image": "img/CT2HairTeaser.gif"
 }
