@@ -83,7 +83,7 @@
             <div class="publication-links">
               <!-- Paper Link. -->
               <span class="link-block">
-                <a href="https://jhonve.github.io/CTHair"
+                <a href="https://dl.acm.org/doi/10.1145/3592106"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                     <i class="fa fa-file-pdf"></i>
@@ -113,7 +113,7 @@
               </span>
               <!-- Dataset Link. -->
               <span class="link-block">
-                <a href="https://jhonve.github.io/CTHair"
+                <a href="https://fb-baas-f32eacb9-8abb-11eb-b2b8-4857dd089e15.s3.amazonaws.com/CT2Hair/data.zip"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="far fa-images"></i>
@@ -122,16 +122,21 @@
                 </a>
             </div>
           </div>
-
         </div>
       </div>
     </div>
   </div>
 </section>
 
-
 <section class="section">
   <div class="container is-max-desktop">
+    <!-- Results Gallery. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <img width="100%" src="static/images/CT2Hair/teaser.gif"/>
+      </div>
+    </div>
+
     <!-- Abstract. -->
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
@@ -150,7 +155,47 @@
         </div>
       </div>
     </div>
-    <!--/ Abstract. -->
+
+    <!-- Paper video. -->
+    <!--
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Video</h2>
+        <div class="publication-video">
+          <iframe src="https://www.youtube.com/embed/Placeholder"
+                  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+        <div class="content has-text-justified">
+          <p>
+            This video shows all of the input wigs and volumes and our reconstructed results presented in our paper.
+            We change the light direction to show the details of the reconstructed hair strands.
+            Also, we apply a physically-based simulation on the reconstruction result to show that our results can be directly used for down-stream applications.
+          </p>
+        </div>
+      </div>
+    </div>
+    -->
+
+    <!-- Pipeline -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Pipeline</h2>
+        <div class="publication-video">
+          <video id="pipeline_video" controls>
+            <source src="static/images/CT2Hair/pipeline.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="content has-text-justified">
+          <p>
+            Our pipeline takes a coarse-to-fine approach and consists of two stages: <font style="color:rgb(255, 111, 0);">guide strands initialization</font> and <font style="color:rgb(0, 81, 255);">dense strands optimization</font>.
+            The first stage starts with computing a 3D orientation field from the input 3D density volume. We then generate guide strands using the calculated orientations.
+            In the second stage, we interpolate the estimated guide strands so that they distribute uniformly on the scalp.
+            Next, we optimize the interpolated hair strands using the source density volume as the target.
+            The optimized hair strands are the final 3D hair model that are ready for down-stream applications.
+          </p>
+        </div>
+      </div>
+    </div>
 
     <!-- Results Gallery. -->
     <div class="columns is-centered has-text-centered">
@@ -159,7 +204,6 @@
         <img width="100%" src="static/images/CT2Hair/hair_gallery.png"/>
       </div>
     </div>
-    <!--/ Abstract. -->
   </div>
 </section>
 
@@ -185,7 +229,7 @@
   <div class="container">
     <div class="content has-text-centered">
       <a class="icon-link"
-         href="https://jhonve.github.io/CTHair">
+         href="https://dl.acm.org/doi/10.1145/3592106">
         <i class="fas fa-file-pdf"></i>
       </a>
       <a class="icon-link" href="https://github.com/Jhonve" class="external-link" disabled>
