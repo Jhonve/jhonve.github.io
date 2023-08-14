@@ -1,0 +1,7 @@
+{
+    "title": "NeuralReshaper: Single-image Human-body Retouching with Deep Neural Networks",
+    "authors": ["Beijia Chen", "Yuefan Shen", "Hongbo Fu", "Xiang Chen", "Kun Zhou", "Youyi Zheng"],
+    "venue": "Science China - Information Sciences 2023",
+    "arxiv_link": "https://arxiv.org/abs/2203.10496",
+    "image": "img/NeuralReshaperTeaser.png"
+}
