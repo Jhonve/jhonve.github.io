@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="AniDress: Animatable Loose-Dressed Avatar from Sparse Views Using Garment Rigging Model">
+  <meta name="keywords" content="AniDress">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta property="og:title" content="AniDress: Animatable Loose-Dressed Avatar from Sparse Views Using Garment Rigging Model" />
+  <meta property="og:description" content="AniDress: Animatable Loose-Dressed Avatar from Sparse Views Using Garment Rigging Model" />
+  <title>AniDress: Animatable Loose-Dressed Avatar from Sparse Views Using Garment Rigging Model</title>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-T834G2HR2M"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-T834G2HR2M');
+  </script>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="icon" href="./static/images/AniDress/icon.png">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+</head>
+<body>
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-2 publication-title">AniDress: Animatable <font style="color:rgb(255, 111, 0);">Loose-Dressed</font> Avatar from <font style="color:rgb(118, 228, 140);">Sparse Views</font> Using Garment Rigging Model</h1>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <a href="https://bbjbbj.github.io">Beijia Chen</a><sup>*</sup>,</span>
+            <span class="author-block">
+              <a href="https://jhonve.github.io">Yuefan Shen</a><sup>*</sup>,</span>
+            <span class="author-block">
+              <a href="https://chingswy.github.io/">Qing Shuai</a>,</span>
+            <span class="author-block">
+              <a href="https://xzhou.me/">Xiaowei Zhou</a>,</span>
+            <span class="author-block">
+              <a href="http://kunzhou.net/">Kun Zhou</a>,</span>
+            <span class="author-block">
+              <a href="http://youyizheng.net/">Youyi Zheng</a></span>
+          </div>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">State Key Lab of CAD&CG,</span>
+            <span class="author-block">Zhejiang University</span>
+          </div>
+
+          <div class="is-size-6 publication-authors">
+            <span class="author-block"><sup>*</sup>Equal Contributions</span>
+          </div>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <!-- arXiv Link. -->
+              <span class="link-block">
+                <a href="https://jhonve.github.io/AniDress"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+              <!-- Paper Link.
+              <span class="link-block">
+                <a href="https://dl.acm.org/doi/10.1145/3592106"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="fa fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span> -->
+              <!-- Code Link. -->
+              <span class="link-block">
+                <a href="https://jhonve.github.io/AniDress"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                </a>
+              </span>
+              <!-- Dataset Link. -->
+              <span class="link-block">
+                <a href="https://jhonve.github.io/AniDress"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="far fa-images"></i>
+                  </span>
+                  <span>Data</span>
+                </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Results Gallery. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <img width="100%" src="static/images/AniDress/anidress_driven_sim.gif"/>
+      </div>
+    </div>
+
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Recent communities have seen significant progress in building photo-realistic animatable avatars from sparse multi-view videos. 
+            However, current workflows struggle to render realistic garment dynamics for loose-fitting characters as they predominantly rely on naked body models for human modeling while leaving the garment part un-modeled. 
+            This is mainly due to that the deformations yielded by loose garments are highly non-rigid, and capturing such deformations often requires dense views as supervision. 
+            In this paper, we introduce AniDress, a novel method for generating animatable human avatars in loose clothes using very sparse multi-view videos (4-8 in our setting). 
+            To allow the capturing and appearance learning of loose garments in such a situation, we employ a virtual bone-based garment rigging model obtained from physics-based simulation data.
+            Such a model allows us to capture and render complex garment dynamics through a set of low-dimensional bone transformations.
+            Technically, we develop a novel method for estimating temporal coherent garment dynamics from a sparse multi-view video. 
+            To build a realistic rendering for unseen garment status using coarse estimations, a pose-driven deformable neural radiance field conditioned on both body and garment motions is introduced, providing explicit control of both parts. At test time, the new garment poses can be captured from unseen situations, derived from a physics-based or neural network-based simulator to drive unseen garment dynamics.
+            To evaluate our approach, we create a multi-view dataset that captures loose-dressed performers with diverse motions.
+            Experiments show that our method is able to render natural garment dynamics that deviate highly from the body and generalize well to both unseen views and poses, surpassing the performance of existing methods.
+            The code and data will be publicly available.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Results of NVS -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-4">Results of novel view synthesis</h2>
+        <div class="publication-video">
+          <video id="pipeline_video" controls>
+            <source src="static/images/AniDress/nvs.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="content has-text-justified">
+          <p>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Results of NPG -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-4">Results of novel pose generation using captured poses</h2>
+        <div class="publication-video">
+          <video id="pipeline_video" controls>
+            <source src="static/images/AniDress/npg.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="content has-text-justified">
+          <p>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Results of NPG on simulation data-->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-4">Results of novel pose generation using simulated poses</h2>
+        <div class="publication-video">
+          <video id="pipeline_video" controls>
+            <source src="static/images/AniDress/npg_sim.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="content has-text-justified">
+          <p>
+          </p>
+        </div>
+      </div>
+    </div>
+
+<!-- Citation
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>
+      Waiting for update.
+    </code></pre>
+  </div>
+</section>
+-->
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="content has-text-centered">
+      <a class="icon-link"
+         href="https://github.com/Jhonve/AniDress">
+        <i class="fas fa-file-pdf"></i>
+      </a>
+      <a class="icon-link" href="https://github.com/Jhonve" class="external-link" disabled>
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <!-- <p>
+            This website is licensed under a <a rel="license"
+                                                href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p> -->
+          <p>
+            This website borrows the template from <a
+              href="https://github.com/nerfies/nerfies.github.io">Nerfies</a>.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
