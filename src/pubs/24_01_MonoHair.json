@@ -2,6 +2,7 @@
     "title": "MonoHair: High-Fidelity Hair Modeling from a Monocular Video",
     "authors": ["Keyu Wu", "Lingchen Yang", "Zhiyi Kuang", "Yao Feng", "Yuefan Shen", "Hongbo Fu", "Kun Zhou", "Youyi Zheng"],
     "venue": "IEEE CVPR 2024",
+    "award": "Oral",
     "web_link": "https://keyuwu-cs.github.io/MonoHair/",
     "arxiv_link": "https://arxiv.org/abs/2403.18356",
     "code_link": "https://github.com/KeyuWu-CS/MonoHair",
