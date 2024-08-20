@@ -1,0 +1,8 @@
+{
+    "title": "AniDress: Animatable Loose-Dressed Avatar from Sparse Views Using Garment Rigging Model",
+    "authors": ["Beijia Chen*", "Yuefan Shen*", "Qing Shuai", "Xiaowei Zhou", "Kun Zhou", "Youyi Zheng"],
+    "venue": "ArXiv 2024",
+    "web_link": "https://jhonve.github.io/AniDress",
+    "arxiv_link": "https://arxiv.org/abs/2401.15348",
+    "image": "img/AniDressTeaser.gif"
+}
