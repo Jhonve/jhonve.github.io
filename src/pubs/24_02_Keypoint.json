@@ -1,0 +1,8 @@
+{
+    "title": "KeypointDETR: An End-to-End 3D Keypoint Detector",
+    "authors": ["Hairong jin", "Yuefan Shen", "Jianwen Lou", "Kun Zhou", "Youyi Zheng"],
+    "venue": "ECCV 2024",
+    "award": "Oral",
+    "paper_link": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/09481.pdf",
+    "image": "img/KeypointTeaser.png"
+}
