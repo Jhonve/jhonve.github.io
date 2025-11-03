@@ -1,0 +1,8 @@
+{
+    "title": "Auto Hair Card Extraction for Smooth Hair with Differentiable Rendering",
+    "authors": ["Zhongtian Zheng", "Tao Huang", "Haozhe Su", "Xueqi Ma", "Yuefan Shen", "Tongtong Wang", "Yin Yang", "Xifeng Gao", "Zherong Pan", "Kui Wu"],
+    "venue": "ACM SIGGRAPH ASIA 2025 (ACM Transactions on Graphics)",
+    "web_link": "https://kuiwuchn.github.io/diffcard.html",
+    "arxiv_link": "https://kuiwuchn.github.io/diffcard/diffcard.pdf",
+    "image": "img/AutoCard.jpg"
+}
