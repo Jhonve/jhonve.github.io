@@ -182,7 +182,20 @@
         <img width="100%" src="static/images/HairLRM/DatasetsAndTraining.gif"/>
         <div class="content has-text-justified">
           <p>
-            TODO: Datasets generation and DOAE training description.
+            From strand-based hairstyle data, we construct training pairs by aligning each hairstyle to a canonical
+            bust and turning it into a training tuple: a fused hair&ndash;bust <b>surface mesh</b> (providing SDF
+            supervision), a <b>salient point cloud</b> sampled from cluster-representative strands to emphasize regions
+            with strong directional change (curls, partings, flow boundaries), and a <b>uniform point cloud</b> that
+            captures the overall hair volume and the underlying bust. Each sample carries position, local orientation,
+            and a hair/bust label.
+          </p>
+          <p>
+            The <b>Dual Orientation AutoEncoder (DOAE)</b> encodes these dual point clouds into a compact latent code
+            via dual cross-attention plus self-attention, and decodes an implicit field that jointly predicts signed
+            distance, 3D orientation, and a hair/bust classification at arbitrary query points. <!-- To counter the highly
+            imbalanced distribution of hair directions, we adopt an <b>even-sampling strategy</b> in orientation space
+            (Fibonacci-sphere anchors) together with SDF-based spatial importance sampling, and train with a combined
+            SDF, orientation, cross-entropy, and KL objective. -->
           </p>
         </div>
       </div>
@@ -194,7 +207,21 @@
         <img width="100%" src="static/images/HairLRM/Framework.gif"/>
         <div class="content has-text-justified">
           <p>
-            TODO: Framework description.
+            Given an input portrait, we segment the hair region and composite it onto a canonical template bust to form
+            a standardized image, then use an off-the-shelf image-to-3D <b>LRM</b> to obtain a coarse surface mesh that
+            serves as a structural anchor. The mesh and image condition the DOAE, whose latent code is <b>optimized at
+            run time</b> under three supervisory signals: SDF values, reprojected 2D orientation cues, and screen-space
+            hair segmentation (estimated via HairStep and back-projected onto the mesh). Since LRMs naturally accept
+            multiple views, the same pipeline runs unchanged in both single- and multi-view settings, and users may
+            optionally paint sparse directional strokes to guide growth.
+          </p>
+          <p>
+            The decoded orientation field is then refined for explicit strand extraction. A <b>surface-guided
+            correction</b> step projects orientations onto the mesh tangent plane to prevent strand&ndash;surface
+            penetration, after which we extract explicit strands from the corrected field. Finally, a <b>iterative
+            refinement</b> feeds the first-pass strands back into the encoder to regress a better latent code for a
+            second optimization, which already converges in a single iteration. The reconstructed strands generalize
+            across diverse domains (realistic portraits, cartoons) and complex styles (curls, ponytails).
           </p>
         </div>
       </div>
@@ -205,6 +232,12 @@
       <div class="column is-four-fifths">
         <h2 class="title is-4">Results Gallery</h2>
         <img width="100%" src="static/images/HairLRM/Gallery.jpg"/>
+        <div class="content has-text-justified">
+          <p>
+            A gallery of reconstructed hairstyles demonstrating the versatility and accuracy of our method across
+            diverse hair types and styles, including straight, wavy, curly, long, and braided hair.
+          </p>
+        </div>
       </div>
     </div>
 
@@ -213,6 +246,13 @@
       <div class="column is-four-fifths">
         <h2 class="title is-4">Convert to Hair Cards</h2>
         <img width="100%" src="static/images/HairLRM/Cards.jpg"/>
+        <div class="content has-text-justified">
+          <p>
+            Our strand-based reconstructions can be readily converted into <b>hair cards</b>, a lightweight
+            representation widely used in real-time graphics and game production, making the results directly usable in
+            downstream art pipelines.
+          </p>
+        </div>
       </div>
     </div>
 
