@@ -2,5 +2,7 @@
     "title": "HairLRM: Strand-based Hair Modeling via Large Reconstruction Models",
     "authors": ["Yuefan Shen*", "Yican Dong*", "Xiufeng Huang", "Zhongtian Zheng", "Youyi Zheng", "Kui Wu"],
     "venue": "ACM SIGGRAPH 2026",
+    "web_link": "https://jhonve.github.io/HairLRM",
+    "arxiv_link": "https://arxiv.org/abs/2606.15238",
     "image": "img/HairLRM.jpg"
 }
