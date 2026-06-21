@@ -45,7 +45,7 @@
     <div class="container is-max-desktop">
       <div class="columns is-centered">
         <div class="column has-text-centered">
-          <h1 class="title is-2 publication-title">HairLRM: <font style="color:rgb(255, 111, 0);">Strand-based</font> Hair Modeling via <font style="color:rgb(0, 81, 255);">Large Reconstruction Models</font></h1>
+          <h1 class="title is-2 publication-title">Hair<font style="color:rgb(205, 138, 87);">LRM</font>: Strand-based Hair Modeling via <font style="color:rgb(205, 138, 87);">Large Reconstruction Models</font></h1>
 
           <div class="is-size-5 publication-authors">
             <span class="author-block">
@@ -138,10 +138,22 @@
     <!--
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
-        <img width="100%" src="img/HairLRM.jpg"/>
+        <div class="publication-video">
+          <video id="pipeline_video" controls loop>
+            <source src="static/images/HairLRM/Teaser.mp4" type="video/mp4">
+          </video>
+        </div>
       </div>
     </div>
     -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <video id="pipeline_video" controls loop 
+               style="width: 100%; height: auto; display: block;">
+          <source src="static/images/HairLRM/Teaser.mp4" type="video/mp4">
+        </video>
+      </div>
+    </div>
 
     <!-- Abstract. -->
     <div class="columns is-centered has-text-centered">
@@ -179,7 +191,11 @@
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
         <h2 class="title is-4">Datasets and DOAE training</h2>
-        <img width="100%" src="static/images/HairLRM/DatasetsAndTraining.gif"/>
+        <!--<img width="100%" src="static/images/HairLRM/DatasetsAndTraining.gif"/>-->
+        <video id="pipeline_video" controls loop 
+               style="width: 100%; height: auto; display: block;">
+          <source src="static/images/HairLRM/DatasetsAndTraining.mp4" type="video/mp4">
+        </video>
         <div class="content has-text-justified">
           <p>
             From strand-based hairstyle data, we construct training pairs by aligning each hairstyle to a canonical
@@ -204,7 +220,11 @@
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
         <h2 class="title is-4">Framework</h2>
-        <img width="100%" src="static/images/HairLRM/Framework.gif"/>
+        <!--<img width="100%" src="static/images/HairLRM/Framework.gif"/>-->
+        <video id="pipeline_video" controls loop 
+               style="width: 100%; height: auto; display: block;">
+          <source src="static/images/HairLRM/Framework.mp4" type="video/mp4">
+        </video>
         <div class="content has-text-justified">
           <p>
             Given an input portrait, we segment the hair region and composite it onto a canonical template bust to form
