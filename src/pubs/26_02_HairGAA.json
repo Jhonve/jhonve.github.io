@@ -1,0 +1,8 @@
+{
+    "title": "Real-Time Neural Hair G-Buffer Anti-Aliasing",
+    "authors": ["Chenghao Wu", "Yuefan Shen", "Tao Huang", "Kai Yan", "Zahra Montazeri", "Kui Wu"],
+    "venue": "ACM SIGGRAPH Asia 2026",
+    "web_link": "https://theo-wu.github.io/NeuralHairGAA/",
+    "arxiv_link": "https://arxiv.org/abs/2605.17557",
+    "image": "img/HairGAA.jpg"
+}
